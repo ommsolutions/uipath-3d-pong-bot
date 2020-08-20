@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="595,1188" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1794,959" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -43,52 +43,25 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="605,1023" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="530,794" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="563,603" sap2010:WorkflowViewState.IdRef="Sequence_3">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'chrome.exe Pong'" sap:VirtualizedContainerService.HintSize="412,106" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
-        <ui:ClickImage.CursorPosition>
-          <ui:CursorPosition Position="Center">
-            <ui:CursorPosition.OffsetX>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:CursorPosition.OffsetX>
-            <ui:CursorPosition.OffsetY>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:CursorPosition.OffsetY>
-          </ui:CursorPosition>
-        </ui:ClickImage.CursorPosition>
-        <ui:ClickImage.Image>
-          <ui:ImageTarget Image="{x:Null}" Accuracy="0.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAMCAYAAAC+9enMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIeSURBVFhH7ZZ9kcIwEMXrAAlIqAQkIAEJSEACEpCABCQgAQmV0Ltfpo9Ztpuk7fHPdfpm3kCym/1OoOk3rAJbI1eCrZErQWrk7XbrD4fDiKfTqb9cLv3z+UzKINLzxF4EbCG/3+/DzhjeliXnH4/HoPm3WDzIMToPj8fjqA4eU3M7n8/Daoyu65Ivr8PaxuOJPDWyaZq0QTCekglWRqOR7/f7j31bbIEiSBcSdAR0oLUHSVDnBSufE0uEtm3TeVsgS8kiLMktgnLwfuRfF8uTYX03ko0I7OcmkSJFjiNQKPR0JjeZyGAEJRRhTiwRSn6BChZhbm7Q28L+brdLMp+D8i4N5buRTBIHLGtPytTiXa/Xj0DSU/C7juyyL11PYkQWATmyWiw5yK/wer1S7pZRI+fmhlwN0zOcbtSw5tPnwJp9DYxokSInGKtgiQEaGmFK8XhmCJwmqCG5gAH7JeZ8fbuRNAJbYmR7SW66GJyDNJFP3eLorPz7p9UiRc70ld71KCgwpXh693P0U659QEz67fKBe3y7kR6R7SW5KQ/dQmjt+jVgzT455tBgGKXcD2lkWKgVT3JuNN89mWSm0Q4R+lBApkSwkxs47JViqUF+oxpAb1v+5uaGLYHvkY7PQfkX/+zomqOYo58sgYCR54qn3zRufARNJQEK8umh6eeGRr8/tVhqqN0uaP/ELM2NwpeATq6ROSb5oLvhX6PvfwCZK2yq6f6qbgAAAABJRU5ErkJggg==" />
-        </ui:ClickImage.Image>
-        <ui:ClickImage.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7d1a63fb-0f2c-45d0-a236-b42bde96cd45" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Pong Game - 3D Pong - Google Chrome' /&gt;&lt;wnd aaname='Pong Game - 3D Pong' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
-            <ui:Target.TimeoutMS>
-              <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
-            <ui:Target.WaitForReady>
-              <InArgument x:TypeArguments="ui:WaitForReady" />
-            </ui:Target.WaitForReady>
-          </ui:Target>
-        </ui:ClickImage.Target>
-      </ui:ClickImage>
-      <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="412,365" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
-        <ui:InterruptibleWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="488,702" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.ponggame.org/3dpong.php">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="454,601" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ClickImage ContinueOnError="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DelayBefore="0" DelayMS="0" DisplayName="Click Image 'chrome.exe Pong'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'chrome.exe Pong'" sap:VirtualizedContainerService.HintSize="412,106" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:ClickImage.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -100,38 +73,54 @@
                 </ui:CursorPosition>
               </ui:ClickImage.CursorPosition>
               <ui:ClickImage.Image>
-                <ui:ImageTarget Image="{x:Null}" Accuracy="0.4" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM7SURBVEhLlZRXT1VBFIXnt/qgD/qgiSVRI/aGijViQawgFrBjx17Bgr2BCiqIYkVU1OX65ty5lwsKepLhnh2Svfb+1poTtmuFarVO+7VJR1SjBtXpvOp1RSd0w293dFWPdEtP9UAv1KouvdIHvdUXfVafvmuoJ9RoZWx+QJtzzfe45WG3PKmbuqC7atRj3dYzPXTb53qjDn3UO311+5/6kWvz5yc2r9P62PyodvRr3hCb31NTbP7c83eozTN36pNn/6reXIu/P//U/InhDGz+ze2He4qwFDcvxkJzsNA8w9KrXwYz1PNfhr7032Ror3pMvC/X5s9PqNZy7dZa7dNGz7vd89bqnA7pso7rut9uW+aBZVp132lp0Wv/fWeJz55/uOlDlZZpp8rdvNLzVnne3TrjPS4aUpNOq1mX3PZanntKDNP3mD7s/5aasE1lbr7apCt0UFt0zNUp7c1zT2ge2oE0fafac+y7owAbfLcMmBDilzps1RKTzkyFO2jgntD0nz7lncuUBN57D9KDCD5wuGDUYZNKBfddWpNHc9zVaVcXbHGaHvb37QJ4MoGWGE0M7rYTiIAqHepQqQUCzQ6tyued1GDsWYO6ZFCNBkUswYO5CJCedr+RIEQwussVYvxShwrNcbtFRdMf0tbIPst8fR5PEmADELX6irFFmys2AVfhtCis1Uy3K0xfYF8d8WTmFguAiJvLFoi0+KohhOFsxC91KFeJc5JNn2JJcsCDuUQT/giAiM8C+W92WJMIZiNEotKhDqs01TBmePr5DuJit1sR8ezVhhjNJMAGJIj8c3vxARE2IU23vBti6VCH5ZrklE8zjFkRT4rmQAEQ4QEXjC2SCJuA65r/gxiHd04o03jPOtkwSpyV2f4ILIz8+wtkiKrjh40UsUUSIa4IgQxf0qEOpRqrpZrgVlMsMD3yTwIgwgMiyreHFLEFSQIVly0JEVsO6NJ7mKfRtnKcrZw4SABERJTPAx83tiBJmUh1vA8IgQwxtkqHOszWSFs5ZpAAiPAAk7d5NzCxBVElTWwCLjzhViM28ITpGuE5R+UFCohKoskbNNezlsYtiGomsjr6kYTYiMuHYOFU6jeGJPu28golcgAAAABJRU5ErkJggg==" />
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAMCAYAAAC+9enMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIeSURBVFhH7ZZ9kcIwEMXrAAlIqAQkIAEJSEACEpCABCQgAQmV0Ltfpo9Ztpuk7fHPdfpm3kCym/1OoOk3rAJbI1eCrZErQWrk7XbrD4fDiKfTqb9cLv3z+UzKINLzxF4EbCG/3+/DzhjeliXnH4/HoPm3WDzIMToPj8fjqA4eU3M7n8/Daoyu65Ivr8PaxuOJPDWyaZq0QTCekglWRqOR7/f7j31bbIEiSBcSdAR0oLUHSVDnBSufE0uEtm3TeVsgS8kiLMktgnLwfuRfF8uTYX03ko0I7OcmkSJFjiNQKPR0JjeZyGAEJRRhTiwRSn6BChZhbm7Q28L+brdLMp+D8i4N5buRTBIHLGtPytTiXa/Xj0DSU/C7juyyL11PYkQWATmyWiw5yK/wer1S7pZRI+fmhlwN0zOcbtSw5tPnwJp9DYxokSInGKtgiQEaGmFK8XhmCJwmqCG5gAH7JeZ8fbuRNAJbYmR7SW66GJyDNJFP3eLorPz7p9UiRc70ld71KCgwpXh693P0U659QEz67fKBe3y7kR6R7SW5KQ/dQmjt+jVgzT455tBgGKXcD2lkWKgVT3JuNN89mWSm0Q4R+lBApkSwkxs47JViqUF+oxpAb1v+5uaGLYHvkY7PQfkX/+zomqOYo58sgYCR54qn3zRufARNJQEK8umh6eeGRr8/tVhqqN0uaP/ELM2NwpeATq6ROSb5oLvhX6PvfwCZK2yq6f6qbgAAAABJRU5ErkJggg==" />
               </ui:ClickImage.Image>
               <ui:ClickImage.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c0aa6c82-f199-442d-96ea-4263ce8b1f0f" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Pong Game - 3D Pong - Google Chrome' /&gt;" TimeoutMS="200" WaitForReady="NONE" />
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7d1a63fb-0f2c-45d0-a236-b42bde96cd45" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Pong Game - 3D Pong - Google Chrome' /&gt;&lt;wnd aaname='Pong Game - 3D Pong' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
               </ui:ClickImage.Target>
             </ui:ClickImage>
+            <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="412,363" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:ClickImage ContinueOnError="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DelayBefore="0" DelayMS="0" DisplayName="Click Image 'chrome.exe Pong'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:ClickImage.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:ClickImage.CursorPosition>
+                    <ui:ClickImage.Image>
+                      <ui:ImageTarget Image="{x:Null}" Accuracy="0.4" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM7SURBVEhLlZRXT1VBFIXnt/qgD/qgiSVRI/aGijViQawgFrBjx17Bgr2BCiqIYkVU1OX65ty5lwsKepLhnh2Svfb+1poTtmuFarVO+7VJR1SjBtXpvOp1RSd0w293dFWPdEtP9UAv1KouvdIHvdUXfVafvmuoJ9RoZWx+QJtzzfe45WG3PKmbuqC7atRj3dYzPXTb53qjDn3UO311+5/6kWvz5yc2r9P62PyodvRr3hCb31NTbP7c83eozTN36pNn/6reXIu/P//U/InhDGz+ze2He4qwFDcvxkJzsNA8w9KrXwYz1PNfhr7032Ror3pMvC/X5s9PqNZy7dZa7dNGz7vd89bqnA7pso7rut9uW+aBZVp132lp0Wv/fWeJz55/uOlDlZZpp8rdvNLzVnne3TrjPS4aUpNOq1mX3PZanntKDNP3mD7s/5aasE1lbr7apCt0UFt0zNUp7c1zT2ge2oE0fafac+y7owAbfLcMmBDilzps1RKTzkyFO2jgntD0nz7lncuUBN57D9KDCD5wuGDUYZNKBfddWpNHc9zVaVcXbHGaHvb37QJ4MoGWGE0M7rYTiIAqHepQqQUCzQ6tyued1GDsWYO6ZFCNBkUswYO5CJCedr+RIEQwussVYvxShwrNcbtFRdMf0tbIPst8fR5PEmADELX6irFFmys2AVfhtCis1Uy3K0xfYF8d8WTmFguAiJvLFoi0+KohhOFsxC91KFeJc5JNn2JJcsCDuUQT/giAiM8C+W92WJMIZiNEotKhDqs01TBmePr5DuJit1sR8ezVhhjNJMAGJIj8c3vxARE2IU23vBti6VCH5ZrklE8zjFkRT4rmQAEQ4QEXjC2SCJuA65r/gxiHd04o03jPOtkwSpyV2f4ILIz8+wtkiKrjh40UsUUSIa4IgQxf0qEOpRqrpZrgVlMsMD3yTwIgwgMiyreHFLEFSQIVly0JEVsO6NJ7mKfRtnKcrZw4SABERJTPAx83tiBJmUh1vA8IgQwxtkqHOszWSFs5ZpAAiPAAk7d5NzCxBVElTWwCLjzhViM28ITpGuE5R+UFCohKoskbNNezlsYtiGomsjr6kYTYiMuHYOFU6jeGJPu28golcgAAAABJRU5ErkJggg==" />
+                    </ui:ClickImage.Image>
+                    <ui:ClickImage.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c0aa6c82-f199-442d-96ea-4263ce8b1f0f" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Pong Game - 3D Pong - Google Chrome' /&gt;" TimeoutMS="200" WaitForReady="NONE" />
+                    </ui:ClickImage.Target>
+                  </ui:ClickImage>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <Literal x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="True" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
           </Sequence>
-        </ui:InterruptibleWhile.Body>
-        <ui:InterruptibleWhile.Condition>
-          <Literal x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="True" />
-        </ui:InterruptibleWhile.Condition>
-      </ui:InterruptibleWhile>
-    </Sequence>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="563,288" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-      <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="527,210" sap2010:WorkflowViewState.IdRef="Sequence_4">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-          <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="485,118" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.ponggame.org/3dpong.php">
-            <ui:OpenBrowser.Body>
-              <ActivityAction x:TypeArguments="x:Object">
-                <ActivityAction.Argument>
-                  <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-                </ActivityAction.Argument>
-              </ActivityAction>
-            </ui:OpenBrowser.Body>
-          </ui:OpenBrowser>
-        </Sequence>
-      </ui:CommentOut.Body>
-    </ui:CommentOut>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
   </Sequence>
 </Activity>
